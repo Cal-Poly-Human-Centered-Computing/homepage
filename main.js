@@ -161,6 +161,20 @@ function createList(items, createItemContent) {
     return list;
 }
 
+function createAwardList(awards) {
+    if (!awards || awards.length === 0) {
+        return null;
+    }
+    const list = document.createElement("ul");
+    list.className = "awards";
+    awards.forEach(function (award) {
+        const listItem = document.createElement("li");
+        listItem.innerHTML = '<span aria-hidden="true">🏆</span> ' + award;
+        list.appendChild(listItem);
+    });
+    return list;
+}
+
 function createProject(project) {
     const article = document.createElement("article");
     article.className = "project";
@@ -168,6 +182,11 @@ function createProject(project) {
     const heading = document.createElement("h3");
     heading.innerHTML = project.name;
     article.appendChild(heading);
+
+    const awardList = createAwardList(project.awards);
+    if (awardList) {
+        article.appendChild(awardList);
+    }
 
     const description = document.createElement("div");
     description.innerHTML = textToHtml(project.description);

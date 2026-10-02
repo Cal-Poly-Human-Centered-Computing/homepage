@@ -6,16 +6,19 @@
     --color-border: #d9d9d9;
     --color-link: #154734;
     --color-highlight-background: #eef4f1;
+    --color-award: #b22222;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --color-green: #8fd1b3;
         --color-text: #ececec;
         --color-muted: #b0b0b0;
         --color-background: #121614;
         --color-border: #3a403d;
         --color-link: #8fd1b3;
         --color-highlight-background: #1c2a24;
+        --color-award: #ff8a80;
     }
 }
 
@@ -136,6 +139,14 @@ h3 {
     padding: 0 1.25rem 1rem 1.25rem;
     border: 1px solid var(--color-border);
     border-radius: 0.5rem;
+}
+
+.awards {
+    margin: 0.25rem 0 0.75rem 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 600;
+    color: var(--color-award);
 }
 
 .project-image {

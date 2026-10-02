@@ -63,6 +63,7 @@ Add an entry to `data/projects.json`:
         "path": "./assets/images/my-project.png",
         "alt": "A description of what the image shows."
     },
+    "awards": ["Best Paper Award, IEEE VIS 2026"],
     "student contributors": ["Student Name"],
     "publications": ["https://link-to-paper"],
     "recruiting": {
@@ -79,6 +80,7 @@ Add an entry to `data/projects.json`:
 - `end`: leave as `""` while the project is active. Once the date (`MM/DD/YYYY`) has passed, the project moves to Past Projects automatically.
 - `image`: leave `path` as `""` for no image. If you add an image, `alt` is required. Images without alt text are not shown. See [Alt text](#alt-text).
 - `recruiting`: the `message` is shown whenever it is not empty. If `until` (`MM/DD/YYYY`) is a date in the future, the page also says "We are recruiting until" that date. Leave `until` as `""` if there is no deadline. Leave `message` as `""` if you are not recruiting.
+- `awards`: each award is shown under the project title with a trophy. Leave as `[]` if there are none.
 - `student contributors` and `publications` can be empty lists: `[]`.
 - Project images go in `assets/images/`.
 
