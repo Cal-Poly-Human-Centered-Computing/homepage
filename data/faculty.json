@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Alex Bisberg",
+        "homepage": "https://ajbisberg.github.io/",
+        "headshot": "./assets/photos/BisbergAlex.jpg",
+        "headshot alt": "A portrait of Alex smiling",
+        "title": "Assistant Professor",
+        "bio": "My current research areas include quantitative and qualitative analysis of social media and online games to understand how people perceive algorithms, cooperate, and express agency in these communities. I'm also interested in trust and alignment in generative AI, and in open social research infrastructure that respects users' privacy and data sovereignty."
+    },
+    {
+        "name": "Frank Elavsky",
+        "homepage": "https://www.frank.computer",
+        "headshot": "./assets/photos/ElavskyFrank.jpg",
+        "headshot alt": "Frank smiling on a street in Austria",
+        "title": "Assistant Professor of Data Science",
+        "bio": "My current work is situated on toolmaking at the intersection of data science and accessibility, making better frameworks, software, and hardware to make interactive data science accessible for people with disabilities."
+    },
+    {
+        "name": "Silas Ming Hsu",
+        "homepage": "https://smhsu.github.io/",
+        "headshot": "./assets/photos/HsuSilas.webp",
+        "headshot alt": "Silas smiling while in a classroom",
+        "title": "Assistant Professor",
+        "bio": "Silas’s research examines how algorithms affect users’ preferences and how we can give users greater agency over social media content. He also has interest in AI for education, including AI’s ability to satisfy psychological needs and training students to ask better questions to AI."
+    },
+    {
+        "name": "Ayaan Kazerouni",
+        "homepage": "https://ayaankazerouni.org/",
+        "headshot": "./assets/photos/KazerouniAyaan.png",
+        "headshot alt": "Ayaan smiling outside in the sun",
+        "title": "Associate Professor",
+        "bio": "Ayaan Kazerouni is an Associate Professor of Computer Science at Cal Poly. His research in Computing Education focuses on improving student self-regulation in software development (e.g., testing, debugging, help-seeking), fostering motivation to learn computing through autonomy and culturally relevant pedagogy, and expanding opportunities to learn through service. He is also interested in social learning, social computing, and data visualization."
+    },
+    {
+        "name": "Snehal Prabhudesai",
+        "homepage": "https://snehalbp.github.io/",
+        "headshot": "./assets/photos/PrabhudesaiSnehal.png",
+        "headshot alt": "Snehal smiling while inside a modern building",
+        "title": "Assistant Professor",
+        "bio": "Snehal Prabhudesai is an Assistant Professor in CSSE. She designs and evaluates responsible AI systems that help non-technical end-users make informed decisions across healthcare, climate change, and education."
+    },
+    {
+        "name": "Austin Wright",
+        "homepage": "https://austinpwright.com/",
+        "headshot": "./assets/photos/WrightAustin.jpeg",
+        "headshot alt": "Austin smiling while outside on a bright day",
+        "title": "Assistant Professor, Computer Science. Head of the Cal Poly <a href=\"https://calpoly-data-design-lab.github.io/\">Data Design Lab</a>.",
+        "bio": "My research in Scientific Human-Centered Machine Learning, at the intersection of data science and HCI, studies how people interact with systems to make sense of data in scientific and social communities."
+    }
+]

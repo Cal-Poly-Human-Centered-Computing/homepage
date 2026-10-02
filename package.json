@@ -1,0 +1,10 @@
+{
+    "name": "cal-poly-hcc-homepage",
+    "description": "Website for the Cal Poly Human-Centered Computing Group. Node is only used for the optional image compression script.",
+    "scripts": {
+        "compress-images": "node scripts/compress-images.js"
+    },
+    "devDependencies": {
+        "sharp": "^0.34.0"
+    }
+}

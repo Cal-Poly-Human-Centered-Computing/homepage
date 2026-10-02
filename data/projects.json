@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Environmentally-grounded AI Literacy",
+        "description": "Most AI literacy efforts teach how LLMs work, but not the environmental consequences of their use. This project investigates how communicating the environmental impact of LLMs at inference time impacts students’ cognition and behavior. We will build an interactive LLM-powered tool, deploy it in classroom settings, and analyze think-aloud and interaction logs.",
+        "end": "",
+        "image": {
+            "path": "",
+            "alt": ""
+        },
+        "student contributors": [],
+        "publications": [],
+        "recruiting": {
+            "until": "",
+            "message": "Recruiting undergraduates with experience in front-end (HTML, CSS), back-end (SQL), and web development (Django), qualitative methods (think-aloud), and NLP data analysis (LDA, BERTopic)."
+        },
+        "faculty contact": {
+            "name": "Snehal Prabhudesai",
+            "email": "snprabhu@calpoly.edu"
+        }
+    },
+    {
+        "name": "Mission-driven Organizational AI Adoption",
+        "description": "Non-profit organizations are driven to adopt AI due to resource constraints. However, such AI adoption in workflows may contradict the values of mission-driven organizations, such as sustainability. The goal of this project is to help knowledge workers at such organizations navigate these tensions. We will partner with non-profit organizations on the California Central Coast and interview knowledge workers on how they navigate the productivity-sustainability trade-offs.",
+        "end": "",
+        "image": {
+            "path": "",
+            "alt": ""
+        },
+        "student contributors": [],
+        "publications": [],
+        "recruiting": {
+            "until": "",
+            "message": "Recruiting one master's student (project lead) to drive community-engaged research. Recruiting undergraduates with experience in quantitative (surveys) and qualitative (semi-structured interviews, contextual inquiry) methods."
+        },
+        "faculty contact": {
+            "name": "Snehal Prabhudesai",
+            "email": "snprabhu@calpoly.edu"
+        }
+    },
+    {
+        "name": "Understanding Uncertainty: How Lay Decision-makers Perceive and Interpret Uncertainty in Human-AI Decision Making",
+        "description": "ML-based decision support systems aim to assist lay decision-makers who are not math-savvy yet do not show the uncertainty in their predictions. We developed three ML-based systems and conducted a think-aloud user study with 17 lay decision-makers. We found that uncertainty serves as a cognitive forcing function, forcing users to slow down and think critically.",
+        "end": "09/30/2026",
+        "image": {
+            "path": "",
+            "alt": ""
+        },
+        "student contributors": ["Leyao (Hannah) Yang"],
+        "publications": ["https://dl.acm.org/doi/abs/10.1145/3581641.3584033"],
+        "recruiting": {
+            "until": "01/01/1900",
+            "message": ""
+        },
+        "faculty contact": {
+            "name": "Snehal Prabhudesai",
+            "email": "snprabhu@calpoly.edu"
+        }
+    },
+    {
+        "name": "<i>Inkling</i>: Exploring How Students Design Visualizations with Integrated Sketching, Natural Language, and Code Editing",
+        "description": "<i>Inkling</i> is a multimodal data visualization authoring environment in which a designer can write code, draw sketches by hand, or use natural language instructions to create a visualization. We use Inkling to explore how visualization authors combine the three modalities to create and refine data visualizations, and to explore its implications for learning. Inkling currently supports the Vega-Lite grammar, with plans to support others in the future.",
+        "end": "09/30/2026",
+        "image": {
+            "path": "./assets/images/inkling.png",
+            "alt": "A sequence of five Inkling screenshots. A user sketches a rough scatterplot of horsepower against miles per gallon, and the sketch is turned into a Vega-Lite scatterplot. The user then draws a line over the points, which becomes a regression line fit to the data. Finally, the user types \"Change the color of the line to red\" and the line turns red."
+        },
+        "student contributors": ["Sadie M. Fisher"],
+        "publications": ["https://ayaankazerouni.org/papers/2026/eduvis2026inkling.pdf"],
+        "recruiting": {
+            "until": "01/01/1900",
+            "message": ""
+        },
+        "faculty contact": {
+            "name": "Ayaan Kazerouni",
+            "email": "ayaank@calpoly.edu"
+        }
+    },
+    {
+        "name": "\"Here the GPT made a choice, and every choice can be biased\": How Students Critically Engage with LLMs through End-User Auditing Activity",
+        "description": "Existing university policies assume that students can critically evaluate LLM responses on their own and defer this responsibility to them. In this work, we conducted a series of user studies with students (N=47) at a large North American public research university to understand if and how they critically engage with LLMs. We found that students without basic AI literacy skills struggle to conceptualize and evaluate LLM biases on their own. However, they transition to focused thinking and purposeful interactions when provided with structured guidance.",
+        "end": "09/30/2026",
+        "image": {
+            "path": "",
+            "alt": ""
+        },
+        "student contributors": ["Ananya Kasi", "Anmol Mansingh"],
+        "publications": ["https://dl.acm.org/doi/abs/10.1145/3581641.3584033"],
+        "recruiting": {
+            "until": "",
+            "message": ""
+        },
+        "faculty contact": {
+            "name": "Snehal Prabhudesai",
+            "email": "snprabhu@calpoly.edu"
+        }
+    }
+]

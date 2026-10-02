@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cal Poly Human-Centered Computing Group</title>
+    <meta name="description" content="Faculty and students at Cal Poly San Luis Obispo who study how people use, understand, and are affected by computing.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#154734">
+    <link rel="canonical" href="https://cal-poly-human-centered-computing.github.io/homepage/">
+    <link rel="icon" type="image/png" href="./assets/images/hcc_logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cal Poly Human-Centered Computing Group">
+    <meta property="og:description" content="Faculty and students at Cal Poly San Luis Obispo who study how people use, understand, and are affected by computing.">
+    <meta property="og:url" content="https://cal-poly-human-centered-computing.github.io/homepage/">
+    <meta property="og:image" content="https://cal-poly-human-centered-computing.github.io/homepage/assets/images/hcc_logo.png">
+    <meta property="og:image:alt" content="Cal Poly Human-Centered Computing Group logo">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <picture>
+                <source srcset="./assets/images/hcc_logo_white.png" media="(prefers-color-scheme: dark)">
+                <img class="logo" src="./assets/images/hcc_logo.png" alt="HCC logo" width="120" height="120">
+            </picture>
+            <h1>Cal Poly Human-Centered Computing Group</h1>
+        </div>
+        <p>
+            We are faculty and students at Cal Poly San Luis Obispo who study how people use, understand, and are affected by computing.
+            Our work includes machine learning, accessibility, data visualization, computing education, social computing, and responsible AI.
+        </p>
+    </header>
+
+    <main>
+        <section id="faculty" aria-labelledby="faculty-heading">
+            <h2 id="faculty-heading">Faculty</h2>
+            <ul class="people-list" id="faculty-list"></ul>
+        </section>
+
+        <section id="current-students" aria-labelledby="current-students-heading" hidden>
+            <h2 id="current-students-heading">Current Students</h2>
+            <ul class="people-list" id="students-list"></ul>
+        </section>
+
+        <section id="active-projects" aria-labelledby="active-projects-heading">
+            <h2 id="active-projects-heading">Active Projects</h2>
+            <div class="project-list" id="active-projects-list"></div>
+        </section>
+
+        <section id="past-projects" aria-labelledby="past-projects-heading" hidden>
+            <h2 id="past-projects-heading">Past Projects</h2>
+            <div class="project-list" id="past-projects-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            This website and group are informally maintained by the affiliated faculty and students and do not officially represent Cal Poly San Luis Obispo.
+        </p>
+        <p>
+            <a href="https://github.com/Cal-Poly-Human-Centered-Computing/homepage">Source code</a>
+            and
+            <a href="https://github.com/Cal-Poly-Human-Centered-Computing/homepage/blob/main/CONTRIBUTING.md">how to add yourself</a>.
+        </p>
+    </footer>
+</body>
+</html>
