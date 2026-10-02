@@ -1,0 +1,22 @@
+[
+    {
+        "name": "U.S. National Science Foundation",
+        "url": "https://www.nsf.gov/",
+        "logo": "./assets/logos/nsf.svg"
+    },
+    {
+        "name": "Chan Zuckerberg Initiative",
+        "url": "https://chanzuckerberg.com/",
+        "logo": "./assets/logos/czi.svg"
+    },
+    {
+        "name": "Adobe",
+        "url": "https://www.adobe.com/",
+        "logo": "./assets/logos/adobe.svg"
+    },
+    {
+        "name": "Cal Poly Noyce School of Applied Computing",
+        "url": "https://noyce.calpoly.edu/",
+        "logo": "./assets/logos/calpoly.svg"
+    }
+]

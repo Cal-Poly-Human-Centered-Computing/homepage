@@ -7,6 +7,8 @@ Pick the guide that fits you:
 
 Both start with [Getting started](#getting-started).
 
+If you see a bug or something to fix but do not want to change it yourself, [open an issue](https://github.com/Cal-Poly-Human-Centered-Computing/homepage/issues/new).
+
 ## Getting started
 
 This site is plain HTML, CSS, and JavaScript. There is no build step. The page loads its content from JSON files in the `data` folder, so most changes only mean editing one of those files.
@@ -83,6 +85,22 @@ Add an entry to `data/projects.json`:
 - `awards`: each award is shown under the project title with a trophy. Leave as `[]` if there are none.
 - `student contributors` and `publications` can be empty lists: `[]`.
 - Project images go in `assets/images/`.
+
+### Adding a sponsor or collaborator
+
+Add the logo to `assets/logos/` (SVG is best) and add an entry to `data/sponsors.json` or `data/collaborators.json`:
+
+```json
+{
+    "name": "Organization Name",
+    "url": "https://example.org/",
+    "logo": "./assets/logos/example.svg"
+}
+```
+
+- The `name` is used as the logo's alt text.
+- If you do not have a logo yet, leave `logo` as `""` and the name is shown as text instead.
+- Logos are shown on a white background in both light and dark mode, so use the version made for light backgrounds.
 
 ### Reviewing student pull requests
 
@@ -162,6 +180,9 @@ If you do not have Node, that is fine. Just try to keep headshots under about 20
 | `data/faculty.json` | One entry per faculty member. |
 | `data/students.json` | One entry per current student. |
 | `data/projects.json` | One entry per project, active or past. |
+| `data/collaborators.json` | Past and current organizational collaborators, shown as logos. |
+| `data/sponsors.json` | Sponsors, shown as logos. |
+| `assets/logos/` | Logos for collaborators and sponsors. |
 | `assets/photos/` | Headshots. |
 | `assets/images/` | The logo and project images. |
 | `assets/compressed-images.json` | A record of which images have already been compressed. Do not edit by hand. |

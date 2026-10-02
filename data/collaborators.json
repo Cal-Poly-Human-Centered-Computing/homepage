@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Apple",
+        "url": "https://www.apple.com/",
+        "logo": "./assets/logos/apple.svg"
+    },
+    {
+        "name": "Adobe",
+        "url": "https://www.adobe.com/",
+        "logo": "./assets/logos/adobe.svg"
+    },
+    {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/",
+        "logo": "./assets/logos/nasa.svg"
+    },
+    {
+        "name": "Quansight",
+        "url": "https://quansight.com/",
+        "logo": "./assets/logos/quansight.svg"
+    },
+    {
+        "name": "Anaconda",
+        "url": "https://www.anaconda.com/",
+        "logo": "./assets/logos/anaconda.png"
+    },
+    {
+        "name": "Bokeh",
+        "url": "https://bokeh.org/",
+        "logo": "./assets/logos/bokeh.svg"
+    },
+    {
+        "name": "UNICEF USA",
+        "url": "https://www.unicefusa.org/",
+        "logo": "./assets/logos/unicef.svg"
+    }
+]

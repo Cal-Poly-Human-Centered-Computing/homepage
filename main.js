@@ -273,6 +273,33 @@ function renderProjects(projects) {
     });
 }
 
+function createOrganization(organization) {
+    const listItem = document.createElement("li");
+    const link = document.createElement("a");
+    link.className = "logo-tile";
+    link.href = organization.url;
+
+    if (organization.logo) {
+        const image = document.createElement("img");
+        image.src = organization.logo;
+        image.alt = organization.name;
+        image.loading = "lazy";
+        link.appendChild(image);
+    } else {
+        link.textContent = organization.name;
+    }
+
+    listItem.appendChild(link);
+    return listItem;
+}
+
+function renderOrganizations(organizations, listId) {
+    const list = document.getElementById(listId);
+    organizations.forEach(function (organization) {
+        list.appendChild(createOrganization(organization));
+    });
+}
+
 function showLoadingError(containerId, error) {
     console.error(error);
     const container = document.getElementById(containerId);
@@ -301,6 +328,20 @@ async function start() {
         renderProjects(projects);
     } catch (error) {
         showLoadingError("active-projects-list", error);
+    }
+
+    try {
+        const collaborators = await loadJson("./data/collaborators.json");
+        renderOrganizations(collaborators, "collaborators-list");
+    } catch (error) {
+        showLoadingError("collaborators-list", error);
+    }
+
+    try {
+        const sponsors = await loadJson("./data/sponsors.json");
+        renderOrganizations(sponsors, "sponsors-list");
+    } catch (error) {
+        showLoadingError("sponsors-list", error);
     }
 }
 
