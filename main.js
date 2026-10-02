@@ -97,7 +97,9 @@ function createPerson(person) {
     title.innerHTML = person.title;
 
     const bio = document.createElement("div");
-    bio.innerHTML = textToHtml(person.bio);
+    if (person.bio) {
+        bio.innerHTML = textToHtml(person.bio);
+    }
 
     textContainer.appendChild(heading);
     textContainer.appendChild(title);
@@ -258,6 +260,25 @@ function renderPeople(people, listId, sectionId) {
     }
 }
 
+function renderStudents(students) {
+    const currentStudents = [];
+    const pastStudents = [];
+
+    students.forEach(function (student) {
+        if (!student.end) {
+            console.warn("Student without an end date: " + student.name);
+        }
+        if (isInThePast(student.end)) {
+            pastStudents.push(student);
+        } else {
+            currentStudents.push(student);
+        }
+    });
+
+    renderPeople(currentStudents, "students-list", "current-students");
+    renderPeople(pastStudents, "past-students-list", "past-students");
+}
+
 function renderProjects(projects) {
     const activeList = document.getElementById("active-projects-list");
     const pastList = document.getElementById("past-projects-list");
@@ -318,7 +339,7 @@ async function start() {
 
     try {
         const students = await loadJson("./data/students.json");
-        renderPeople(students, "students-list", "current-students");
+        renderStudents(students);
     } catch (error) {
         console.error(error);
     }

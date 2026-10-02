@@ -122,16 +122,20 @@ Before you start, check with the faculty member you work with. They will review 
     "headshot": "./assets/photos/LeeSam.jpg",
     "headshot alt": "Sam smiling in front of the library",
     "title": "Undergraduate, Computer Science",
-    "bio": "A few sentences about what you work on."
+    "end": "12/15/2026"
 }
 ```
 
+- `end` is required. It is the date (`MM/DD/YYYY`) you expect to stop working with the group. After that date, the page moves you from Current Students to Past Students automatically, so nobody has to remember to update the file.
+  - If you are working with us for one semester, use the last day of that semester from the Cal Poly academic calendar.
+  - Otherwise, ask your faculty advisor what date to use.
+  - If your plans change, update the date.
 - `homepage` can be a personal site, GitHub, or LinkedIn. Leave it as `""` if you do not want a link.
 - If you would rather not share a photo, leave `headshot` and `headshot alt` as `""`. The group logo is shown instead.
 - `headshot alt` is required when you have a headshot. See [Alt text](#alt-text).
 - If `students.json` is empty (`[]`), put your entry between the square brackets. If there are other entries already, add a comma after the one before yours.
 
-The Current Students section only appears on the page once at least one student has been added.
+The Current Students and Past Students sections only appear on the page once they have at least one person in them.
 
 ### Adding yourself to a project
 
@@ -178,7 +182,7 @@ If you do not have Node, that is fine. Just try to keep headshots under about 20
 | `styles.css` | All styling, including dark mode. |
 | `main.js` | Loads the JSON files and turns them into HTML. |
 | `data/faculty.json` | One entry per faculty member. |
-| `data/students.json` | One entry per current student. |
+| `data/students.json` | One entry per student, current or past. |
 | `data/projects.json` | One entry per project, active or past. |
 | `data/collaborators.json` | Past and current organizational collaborators, shown as logos. |
 | `data/sponsors.json` | Sponsors, shown as logos. |
