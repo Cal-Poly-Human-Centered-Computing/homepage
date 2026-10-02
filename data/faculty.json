@@ -24,12 +24,12 @@
         "bio": "Silas’s research examines how algorithms affect users’ preferences and how we can give users greater agency over social media content. He also has interest in AI for education, including AI’s ability to satisfy psychological needs and training students to ask better questions to AI."
     },
     {
-        "name": "Ayaan Kazerouni",
+        "name": "Ayaan M. Kazerouni",
         "homepage": "https://ayaankazerouni.org/",
         "headshot": "./assets/photos/KazerouniAyaan.png",
         "headshot alt": "Ayaan smiling outside in the sun",
         "title": "Associate Professor",
-        "bio": "Ayaan Kazerouni is an Associate Professor of Computer Science at Cal Poly. His research in Computing Education focuses on improving student self-regulation in software development (e.g., testing, debugging, help-seeking), fostering motivation to learn computing through autonomy and culturally relevant pedagogy, and expanding opportunities to learn through service. He is also interested in social learning, social computing, and data visualization."
+        "bio": "Ayaan's research in computing education focuses on improving student self-regulation in software development (e.g., testing, debugging, help-seeking), fostering motivation to learn computing through autonomy and culturally relevant pedagogy, and expanding opportunities to learn through service. He is also interested in social learning, social computing, and data visualization."
     },
     {
         "name": "Snehal Prabhudesai",

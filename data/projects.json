@@ -49,7 +49,9 @@
         },
         "awards": [],
         "student contributors": ["Leyao (Hannah) Yang"],
-        "publications": ["https://dl.acm.org/doi/abs/10.1145/3581641.3584033"],
+        "publications": [
+          { "url": "https://dl.acm.org/doi/abs/10.1145/3581641.3584033" }
+        ],
         "recruiting": {
             "until": "01/01/1900",
             "message": ""
@@ -60,24 +62,43 @@
         }
     },
     {
-        "name": "<i>Inkling</i>: Exploring How Students Design Visualizations with Integrated Sketching, Natural Language, and Code Editing",
+        "name": "Multimodal interfaces for authoring data visualizations",
         "description": "<i>Inkling</i> is a multimodal data visualization authoring environment in which a designer can write code, draw sketches by hand, or use natural language instructions to create a visualization. We use Inkling to explore how visualization authors combine the three modalities to create and refine data visualizations, and to explore its implications for learning. Inkling currently supports the Vega-Lite grammar, with plans to support others in the future.",
-        "end": "09/30/2026",
+        "end": "",
         "image": {
             "path": "./assets/images/inkling.png",
             "alt": "A sequence of five Inkling screenshots. A user sketches a rough scatterplot of horsepower against miles per gallon, and the sketch is turned into a Vega-Lite scatterplot. The user then draws a line over the points, which becomes a regression line fit to the data. Finally, the user types \"Change the color of the line to red\" and the line turns red."
         },
         "awards": [],
         "student contributors": ["Sadie M. Fisher"],
-        "publications": ["https://ayaankazerouni.org/papers/2026/eduvis2026inkling.pdf"],
+        "publications": [
+          { "url": "https://ayaankazerouni.org/papers/2026/eduvis2026inkling.pdf", "text": "Inkling: Exploring How Students Design Visualizations with Integrated Sketching, Natural Language, and Code Editing" }
+        ],
         "recruiting": {
             "until": "01/01/1900",
             "message": ""
         },
         "faculty contact": {
-            "name": "Ayaan Kazerouni",
+            "name": "Ayaan M. Kazerouni",
             "email": "ayaank@calpoly.edu"
         }
+    },
+    {
+      "name": "Computational and cognitive load of software test adequacy criteria",
+      "description": "Software testing is an important self-regulatory skill in software engineering, increasingly so in the age of generative AI. Fast and accurate feedback about tests can help engineers quickly reason about test adequacy as they develop software. We studied how novice and intermediate computing students made sense of feedback from test adequacy criteria like code coverage and mutation analysis, and studied ways to reduce the computational cost of mutation analysis for the purposes of large-scale assessmnent in software development courses.",
+      "end": "09/30/2026",
+      "image": {
+        "path": "./assets/images/process-model.png",
+        "alt": "A process diagram showing a novice's test selection process. A participant receives a testing task, then reads the source code or program description to first understand the problem and program. Once this is done, they write an initial set of tests based on experience and intuition. If any tests fail, the participant re-evaluates their understanding. Once all tests pass, they receive test adequacy feedback. They use strategies like code tracing to identify gaps in branch or mutation feedback. If mutation feedback is too difficult to address, the participant may fall back to addressing branch coverage instead. Once all feedback is satisfied, the testing task is done."
+      },
+      "recruiting": {
+        "until": "09/30/2026",
+        "message": ""
+      },
+      "publications": [
+        { "url": "https://doi.org/10.1145/3628604", "text": "A Model of How Students Engineer Test Cases With Feedback" },
+        { "url": "https://doi.org/10.1016/j.jss.2021.110905", "text": "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis" }
+      ]
     },
     {
         "name": "\"Here the GPT made a choice, and every choice can be biased\": How Students Critically Engage with LLMs through End-User Auditing Activity",
@@ -89,7 +110,9 @@
         },
         "awards": [],
         "student contributors": ["Ananya Kasi", "Anmol Mansingh"],
-        "publications": ["https://dl.acm.org/doi/10.1145/3706598.3713714"],
+        "publications": [
+          { "url": "https://dl.acm.org/doi/10.1145/3706598.3713714" }
+        ],
         "recruiting": {
             "until": "",
             "message": ""
@@ -109,7 +132,9 @@
         },
         "awards": ["Best Paper Award, IEEE VIS 2026 (top 1% of submissions)"],
         "student contributors": ["Chieri Nnadozie", "Lucas Nadolskis"],
-        "publications": ["https://www.frank.computer/papers/2026-vis-skeleton.pdf"],
+        "publications": [
+          { "url": "https://www.frank.computer/papers/2026-vis-skeleton.pdf" }
+        ],
         "recruiting": {
             "until": "",
             "message": ""
