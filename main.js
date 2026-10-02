@@ -222,7 +222,7 @@ function createProject(project) {
         const publicationList = createList(publications, function (item) {
             const link = document.createElement("a");
             link.href = item.url;
-            link.textContent = item.text ?? item.url;
+            link.textContent = item.text || item.url;
             return link;
         });
         addDetail(details, "Publications", publicationList);
