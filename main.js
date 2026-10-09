@@ -219,10 +219,10 @@ function createProject(project) {
 
     const publications = project.publications || [];
     if (publications.length > 0) {
-        const publicationList = createList(publications, function (url) {
+        const publicationList = createList(publications, function (item) {
             const link = document.createElement("a");
-            link.href = url;
-            link.textContent = url;
+            link.href = item.url;
+            link.textContent = item.text || item.url;
             return link;
         });
         addDetail(details, "Publications", publicationList);
