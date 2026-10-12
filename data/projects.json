@@ -95,6 +95,10 @@
         "until": "09/30/2026",
         "message": ""
       },
+      "faculty contact": {
+        "name": "Ayaan Kazerouni",
+        "email": "ayaank@calpoly.edu"
+      },
       "publications": [
         { "url": "https://doi.org/10.1145/3628604", "text": "A Model of How Students Engineer Test Cases With Feedback" },
         { "url": "https://doi.org/10.1016/j.jss.2021.110905", "text": "Fast and Accurate Incremental Feedback for Students' Software Tests Using Selective Mutation Analysis" }
